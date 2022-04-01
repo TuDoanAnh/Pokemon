@@ -1,0 +1,162 @@
+.cards{
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: -30px;
+    justify-content: space-evenly;
+}
+.card{
+    border-radius: 20px;
+    background-color: #30a8d760;
+    overflow: hidden;
+    width: calc(25%-30px);
+    margin-left: 30px;
+    margin-bottom: 7px;
+}
+
+.card-image{
+    height: 205px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-content{
+    color: #313131;
+    padding: 20px;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 145%;
+    font-family: "Flexo-Demi",arial,sans-serif;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.card-footer{
+    padding: 20px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-type1{
+    color: #eee;
+    padding: 3px 10px;
+    border-radius: 3px;
+    background-color: #9bcc50;
+    margin-right: 20px;
+    width: 50px;
+}
+.card-type2{
+    color: #eee;
+    padding: 3px 10px;
+    border-radius: 3px;
+    background-color: #b97fc9;
+    width: 50px;
+}
+.pokedex-filter{
+    background: #313131;
+    width: 100%;
+}
+.pokedex-filter > div{
+    background: none;
+    display: block; 
+    padding: 30px ;
+    overflow: visible;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pokedex-filter .left{
+    width: 30%;
+}
+.pokedex-filter .left .text-search{
+    display: flex;
+    flex-direction: column;
+}
+.pokedex-filter .left .text-search label{
+    font-size: 150%;
+}
+.pokedex-filter .left .text-search .search-box{
+    margin-top: 10px;
+}
+.pokedex-filter .left .text-search .search-box .text{
+    padding: 8px 0;
+    border-radius: 5px;
+    border: none;
+}
+.pokedex-filter .left .text-search .search-box .button{
+    padding: 3.5px 10px 8px;
+    font-size: 110%;
+    background-color: #ee6b2f;
+    color: #EEE;
+    border: none;
+    border-radius: 3px;
+    align-items: center;
+    cursor: pointer;
+}
+.pokedex-filter .right{
+    margin-top: 12px;
+    width: 45%;
+}   
+.pokedex-filter .right .banner{
+    font-size: 110%;
+    padding-top: 4.5px;
+    padding-bottom: 4.5px;
+    padding-left: 10px;
+    padding-right: 10px;    
+    background-color: #4dad5b;
+    border-radius: 3px;
+    height: 50px;
+}
+
+.pokedex-header{
+    background: #eee;
+    width: 100%;
+}
+.pokedex-header h1{
+    color: #919191;
+    text-align: center;
+    font-weight: 300;
+}
+.Arrange{
+    width: 100%;
+    background-color: white;
+    margin: 20px auto;
+}
+.Arrange form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Arrange .gen select{
+   padding: 10px 15px;
+   border-radius: 5px;
+   background-color: #30a7d7;
+   color: #eee;
+   font-size: 120%;
+   font-weight: 500;
+}
+
+.Arrange .sort select{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #313131;
+    color: #eee;
+    font-size: 120%;
+    font-weight: 500;
+ }
+
+ .Arrange .surprise input{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #E3350D;
+    color: #eee;
+    font-size: 120%;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+ }

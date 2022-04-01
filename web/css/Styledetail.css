@@ -1,0 +1,187 @@
+a{
+    text-decoration: none;
+    color: #eee;
+}
+.pagnation{
+    width: 100%;
+    margin-top: 100px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.pagnation .pagnation-wrapper{
+    width: 40%;
+    background-color: #a4a4a4;
+    padding: 30px 20px;
+    font-size: 150%;
+    cursor: pointer;
+    transition: all 1,5s ease;
+}
+.pagnation .pagnation-wrapper:hover{
+    background-color: #30a7d7;
+}
+.pagnation .pagnation-wrapper i{
+    margin: 0 15px;
+}
+.pagnation .previous{
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    color: #eee;
+}
+.pagnation .next{
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    justify-content: center;
+    color: #eee;
+}
+.poketitle{
+    color: #313131;
+    font-weight: 300;
+    text-align: center;
+    font-size: 250%;
+}
+.detail{
+    width: 100%;
+    margin: 100px auto;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.detail .detail-left, .detail-right{
+    width: 37%;
+    margin-left: 30px;
+
+}
+.detail .detail-left .poke-img{
+    width: 100%;
+    height: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.detail .detail-left .poke-img img{
+    width: 100%;
+    height: 100%;
+}
+.detail .detail-left .poke-stats{
+    display: flex;
+    margin-top: 20px;
+    background-color: #aaaaaa;
+    border-radius: 10px;
+}
+.detail .detail-left .poke-stats ul {
+    width: 40%;
+}
+.detail .detail-left .poke-stats span{
+    display: block;
+    margin: 20px auto;
+    font-size: 120%;
+}
+.detail .detail-left .poke-stats .stat-title{
+    color: rgb(243, 242, 242);
+}
+.detail .detail-right .describe{
+    font-size: 120%;
+    line-height: 120%;
+    font-style: italic;
+}
+.detail .detail-right .basic-infor{
+    display: flex;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #30a7d7;
+}
+.detail .detail-right .basic-infor ul{
+    width: 40%;
+}
+.detail .detail-right .basic-infor ul span{
+    display: block;
+    margin: 20px auto;
+    font-size: 120%;
+}
+.detail .detail-right .basic-infor .basic-title{
+    color: #eee;
+}
+.detail .detail-right .type{
+    margin-top: 30px;
+}
+.detail .detail-right .type .poke-type{
+    margin-bottom: 30px;
+}
+.detail .detail-right .type h2{
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.detail .detail-right .type .type-wrapper{
+    display: flex;
+}
+.detail .detail-right .type .poke-type .type1,.type2{
+    padding: 7px 7px;
+    width: 20%;
+    border-radius: 5px;
+    color: #eee;
+    text-align: center;
+    margin-right: 20px;
+}
+.detail .detail-right .type .poke-type .type1{
+    background-color: #9bcc50;
+}
+.detail .detail-right .type .poke-type .type2{
+    background-color: #b97fc9;
+}
+.detail .detail-right .type .weakness-type .weak-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.detail .detail-right .type .weakness-type .weak-wrapper .weak{
+    padding: 7px 7px;
+    width: 20%;
+    border-radius: 5px;
+    color: #eee;
+    text-align: center;
+    margin-right: 20px;
+    background-color: #30a7d7;
+    margin-bottom: 20px;
+}
+.evolution-chain{
+    padding: 30px 30px;
+    margin: 0 30px;
+    width: 90%;
+    overflow: hidden;
+}
+.chain-wrapper{
+    background: url(../image/body_bg.png);
+    opacity: 0.9;
+    padding: 30px 40px 30px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.chain-wrapper h2{
+    margin: 5px 5px;
+    font-weight: 300;
+    font-size: 150%;
+    font-style: italic;
+}
+.chain-wrapper .all-stage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.chain-wrapper .all-stage .stage .thumbnail{
+    border: 6px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 2px 2px black;
+    margin-bottom: 20px;
+}
+
+.chain-wrapper .all-stage .stage .stage-title{
+    display: flex;
+    justify-content: space-around;
+}
+.chain-wrapper .all-stage .stage .stage-title span{
+    font-size: 130%;
+    text-align: center;
+}
+.chain-wrapper .all-stage .stage .stage-title .dexnumber{
+    color: #a4acaf;
+}

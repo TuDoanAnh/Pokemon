@@ -1,0 +1,88 @@
+input{
+    width: 50px;
+}
+.main-article{
+    width: 85%;
+}
+.article-header h1{
+    color: #212121;
+    font-size: 200%;
+    text-transform: none;   
+    font-weight: 300;
+    margin: 3em 10rem 0.75em;
+}
+.article-header h3{
+    color: #30a7d7;
+    font-size: 150%;
+    line-height: 125%;
+    margin: 0.9em 0.5em 0.9em 10rem;
+    font-style: italic;
+}
+.poke-slot{
+    display:flex;
+    color: #212121;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.poke-slot .find-poke h2{
+    color: #212121;
+    font-size: 150%;
+    text-transform: none;   
+    font-weight: 300;
+    margin: 1rem 8rem;
+}
+.poke-slot .find-poke span{
+    background-color: #30a7d7;
+    color: #eee;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin:  10px;
+}
+.poke-slot .find-poke input{
+    border-radius: 10px;
+    padding: 5px 8px;
+}
+.poke-slot .infor-table table{
+    border: 3px solid steelblue;
+    border-radius: 10px;
+    margin-left: 5rem;
+}
+.poke-slot .infor-table td{
+    width: 90px;
+    padding: 5px;
+    text-align: center;
+}
+.poke-slot .infor-table .c1{
+    background-color: rgba(255, 0, 0, 0.26);
+}
+.poke-slot .infor-table .r1{
+    background-color: rgba(255, 0, 0, 0.575);
+}
+.poke-slot .infor-table .r2{
+    background-color: orange;
+}
+.poke-slot .infor-table .r3{
+    background-color: rgba(165, 42, 42, 0.616);
+}
+.poke-slot .infor-table .r4{
+    background-color: palevioletred;
+}
+.poke-slot .infor-table .r5{
+    background-color: rgba(0, 128, 0, 0.541);
+}
+.poke-slot .infor-table .r6{
+    background-color: rgba(0, 0, 255, 0.678);
+}
+.poke-slot .button{
+    padding: 7px;
+    width: 80px;
+    margin-left: 20rem;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: tomato;
+    font-weight: 500;
+    color: #eee;
+}
